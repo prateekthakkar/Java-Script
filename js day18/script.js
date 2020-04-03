@@ -39,22 +39,6 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
                 {
                  nextPlayer();   
                 }
-            /* if (dice === 6 && lastDice === 6)
-                {
-                    scores[activePlayer] = 0;
-                    document.querySelector('#score-' +activePlayer).textContent = '0';
-                    nextPlayer();
-                }
-            else if (dice !== 1)
-                {
-                    roundScore += dice;
-                    document.querySelector('#current-' + activePlayer).textContent = roundScore;
-                }
-            else
-                {
-                 nextPlayer();   
-                }
-            lastDice = dice; */
         }
 });
 
