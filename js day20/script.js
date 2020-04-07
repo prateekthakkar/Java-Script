@@ -23,7 +23,7 @@ console.log(object2.age);
 //functions
 var age = 25;
 var object = {
-    name : 'prateek',
+    name    : 'prateek',
     country : 'india'
 }
 function change(a,b){
